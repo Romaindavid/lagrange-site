@@ -239,7 +239,7 @@ section { padding: 4rem 0; }
 
 .footer-inner {
   display: grid;
-  grid-template-columns: 1fr 1fr 1.5fr;
+  grid-template-columns: 1fr 1fr;
   gap: 2rem 3rem;
   margin-bottom: 2rem;
 }
@@ -285,15 +285,6 @@ section { padding: 4rem 0; }
   color: rgba(245,240,232,.5);
   font-size: .8rem;
   text-align: center;
-}
-
-@media (max-width: 900px) {
-  .footer-inner {
-    grid-template-columns: 1fr 1fr;
-  }
-  .footer-newsletter {
-    grid-column: 1 / -1;
-  }
 }
 
 @media (max-width: 600px) {
