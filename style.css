@@ -684,6 +684,42 @@ section { padding: 4rem 0; }
   }
 }
 
+/* ── Co-organisateurs ───────────────────────────────────────── */
+.event-coorg {
+  border-top: 1px solid var(--cream-dark);
+  padding-top: .9rem;
+  margin-top: .25rem;
+}
+
+.event-coorg-label {
+  display: block;
+  font-size: .75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  color: var(--text-light);
+  margin-bottom: .5rem;
+}
+
+.event-coorg-logos {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  flex-wrap: wrap;
+}
+
+.coorg-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  color: var(--green);
+  font-weight: 700;
+}
+
+.coorg-sep {
+  color: var(--terracotta);
+  font-weight: 700;
+}
+
 /* ── Info note ───────────────────────────────────────────────── */
 .note {
   font-size: .9rem;
