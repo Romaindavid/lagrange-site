@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact — La Grange, café citoyen à La Rochelle</title>
-  <meta name="description" content="Contactez l'association La Grange à La Rochelle par email ou téléphone. Formulaire de contact, réseaux sociaux et prochaines Tablées." />
+  <meta name="description" content="Contactez l'association La Grange à La Rochelle par email ou sur les réseaux sociaux. Venez aussi à une Tablée pour nous rencontrer." />
   <meta property="og:title" content="Contact — La Grange" />
   <meta property="og:description" content="Une question, une envie de s'impliquer ? Contactez l'équipe de La Grange ou venez à une Tablée !" />
   <meta property="og:url" content="https://asso-lagrange.fr/contact.html" />
@@ -51,12 +51,11 @@
       </div>
     </section>
 
-    <!-- ══ CONTACT + FORMULAIRE ═════════════════════════════════ -->
+    <!-- ══ COORDONNÉES ══════════════════════════════════════════ -->
     <section>
       <div class="container">
-        <div class="contact-grid">
+        <div class="two-col">
 
-          <!-- Infos de contact -->
           <div>
             <h2 class="section-title">Nos coordonnées</h2>
 
@@ -67,14 +66,6 @@
                 <div>
                   <strong>Email</strong><br />
                   <a href="mailto:contact@asso-lagrange.fr">contact@asso-lagrange.fr</a>
-                </div>
-              </div>
-
-              <div class="contact-row">
-                <span class="contact-icon" aria-hidden="true">📞</span>
-                <div>
-                  <strong>Téléphone</strong><br />
-                  <a href="tel:+33634323977">06 34 32 39 77</a>
                 </div>
               </div>
 
@@ -100,39 +91,35 @@
               </div>
 
             </div>
+          </div>
 
+          <div>
             <!-- Encart Tablées -->
-            <div class="tablees-cta">
+            <div class="tablees-cta" style="margin-top: 0;">
               <h3>Vous voulez nous rencontrer&nbsp;?</h3>
               <p>Venez à une Tablée&nbsp;! C'est le meilleur moyen de découvrir
-                 le projet et l'équipe en vrai, autour d'un bon repas.</p>
+                 le projet et l'équipe en vrai, autour d'un repas cuisiné ensemble.</p>
               <a href="les-tablees.html" class="btn btn-outline-dark">Voir les Tablées</a>
             </div>
           </div>
 
-          <!-- Formulaire -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ NEWSLETTER ══════════════════════════════════════════════ -->
+    <section class="newsletter-section">
+      <div class="container">
+        <div class="newsletter-inner">
           <div>
-            <h2 class="section-title">Envoyer un message</h2>
-            <form class="contact-form" action="#" method="post" novalidate>
-              <div class="form-group">
-                <label for="nom">Nom</label>
-                <input type="text" id="nom" name="nom" placeholder="Votre nom" autocomplete="name" />
-              </div>
-
-              <div class="form-group">
-                <label for="email">Adresse email <span aria-hidden="true">*</span></label>
-                <input type="email" id="email" name="email" placeholder="vous@exemple.fr" required autocomplete="email" />
-              </div>
-
-              <div class="form-group">
-                <label for="message">Message <span aria-hidden="true">*</span></label>
-                <textarea id="message" name="message" placeholder="Votre message…" required></textarea>
-              </div>
-
-              <button type="submit" class="btn btn-primary">Envoyer le message</button>
-            </form>
+            <h2 class="section-title">Restez dans la boucle</h2>
+            <p class="section-intro">Prochaines Tablées, actualités du projet et annonce de l'ouverture — dans votre boîte mail, sans spam.</p>
           </div>
-
+          <!-- Connecter à Brevo / Mailchimp : remplacer action="#" par l'URL de votre service -->
+          <form class="newsletter-form" action="#" method="post">
+            <input type="email" name="email" placeholder="votre@email.fr" required aria-label="Votre adresse email" />
+            <button type="submit" class="btn btn-primary">Je m'abonne</button>
+          </form>
         </div>
       </div>
     </section>
@@ -155,6 +142,15 @@
             <li><a href="#" aria-label="Instagram de La Grange">Instagram</a></li>
             <li><a href="#" aria-label="Facebook de La Grange">Facebook</a></li>
           </ul>
+        </div>
+
+        <div class="footer-newsletter">
+          <h4>Restez dans la boucle</h4>
+          <p>Prochaines Tablées, actus, ouverture du café.</p>
+          <form class="newsletter-form-mini" action="#" method="post">
+            <input type="email" name="email" placeholder="votre@email.fr" required aria-label="Votre adresse email" />
+            <button type="submit">S'abonner</button>
+          </form>
         </div>
 
       </div>

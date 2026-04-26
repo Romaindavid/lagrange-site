@@ -17,8 +17,8 @@
   <!-- ══ HEADER ══════════════════════════════════════════════ -->
   <header class="site-header">
     <div class="container header-inner">
-      <a href="index.html" class="header-logo" aria-label="La Grange — retour à l'accueil">
-        <img src="logo.png" alt="Logo La Grange" height="52" />
+      <a href="index.html" class="header-wordmark" aria-label="La Grange — retour à l'accueil">
+        La&nbsp;Grange
       </a>
 
       <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true" />
@@ -43,11 +43,13 @@
     <!-- ══ HERO ════════════════════════════════════════════════ -->
     <section class="hero">
       <div class="container">
-        <img src="logo.png" alt="" class="hero-logo" aria-hidden="true" />
+        <img src="logo.png" alt="Logo La Grange" class="hero-logo" />
+        <span class="hero-badge">Café associatif et citoyen · La Rochelle</span>
         <h1>Un café pour tout le monde.<br />Un lieu pour se retrouver.</h1>
         <p class="subtitle">
-          La Grange, c'est un café citoyen qui ouvre ses portes à La Rochelle
-          au printemps 2027. Un endroit où chacun est le bienvenu, quoi qu'il arrive.
+          La Grange ouvre ses portes à La Rochelle au printemps 2027.
+          Un endroit où chacun est le bienvenu, où il se passe toujours quelque chose,
+          et qui fonctionne autrement que les autres.
         </p>
         <a href="adherer.html" class="btn btn-primary">Rejoindre l'aventure</a>
       </div>
@@ -61,20 +63,20 @@
 
           <article class="feature-card">
             <div class="feature-icon" aria-hidden="true">☕</div>
-            <h3>Un café accessible</h3>
-            <p>Des boissons à prix doux, une table pour rester aussi longtemps qu'on veut.</p>
+            <h3>Un café associatif et citoyen</h3>
+            <p>Prix libres et conscients, pas de consommation obligatoire. Un bar qui fonctionne autrement, à la marge du système marchand classique.</p>
           </article>
 
           <article class="feature-card">
-            <div class="feature-icon" aria-hidden="true">🤝</div>
-            <h3>Un lieu participatif</h3>
-            <p>Les habitués deviennent acteurs. Ateliers, événements, gouvernance collective.</p>
+            <div class="feature-icon" aria-hidden="true">🎪</div>
+            <h3>Un lieu vivant</h3>
+            <p>Tablées, ateliers, musique live, projections… La Grange, c'est bien plus qu'un café. Il se passe toujours quelque chose.</p>
           </article>
 
           <article class="feature-card">
             <div class="feature-icon" aria-hidden="true">🌍</div>
-            <h3>Pour tout le monde</h3>
-            <p>De 7 à 77 ans, avec ou sans budget, seul ou en famille.</p>
+            <h3>Ouvert à toutes et à tous</h3>
+            <p>De 7 à 77 ans, avec ou sans budget, seul ou en famille. Personne n'est de trop.</p>
           </article>
 
         </div>
@@ -110,6 +112,23 @@
       </div>
     </section>
 
+    <!-- ══ NEWSLETTER ══════════════════════════════════════════════ -->
+    <section class="newsletter-section">
+      <div class="container">
+        <div class="newsletter-inner">
+          <div>
+            <h2 class="section-title">Restez dans la boucle</h2>
+            <p class="section-intro">Prochaines Tablées, actualités du projet et annonce de l'ouverture — dans votre boîte mail, sans spam.</p>
+          </div>
+          <!-- Connecter à Brevo / Mailchimp : remplacer action="#" par l'URL de votre service -->
+          <form class="newsletter-form" action="#" method="post">
+            <input type="email" name="email" placeholder="votre@email.fr" required aria-label="Votre adresse email" />
+            <button type="submit" class="btn btn-primary">Je m'abonne</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <!-- ══ FOOTER ══════════════════════════════════════════════ -->
@@ -128,6 +147,15 @@
             <li><a href="#" aria-label="Instagram de La Grange">Instagram</a></li>
             <li><a href="#" aria-label="Facebook de La Grange">Facebook</a></li>
           </ul>
+        </div>
+
+        <div class="footer-newsletter">
+          <h4>Restez dans la boucle</h4>
+          <p>Prochaines Tablées, actus, ouverture du café.</p>
+          <form class="newsletter-form-mini" action="#" method="post">
+            <input type="email" name="email" placeholder="votre@email.fr" required aria-label="Votre adresse email" />
+            <button type="submit">S'abonner</button>
+          </form>
         </div>
 
       </div>
