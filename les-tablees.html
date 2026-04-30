@@ -58,7 +58,7 @@
         <h2 class="section-title">Prochaine date</h2>
 
         <div class="event-card">
-          <span class="event-label">1ère édition</span>
+          <span class="event-label">1ère édition · Inscriptions ouvertes</span>
           <h3>Les Tablées de La Grange</h3>
           <p style="color: var(--terracotta); font-style: italic; font-family: 'Playfair Display', serif;">
             Notre futur café citoyen commence ici&nbsp;!
@@ -77,9 +77,19 @@
               <span class="coorg-name">Horizon Jeune Habitant</span>
             </div>
           </div>
-          <a href="mailto:contact@asso-lagrange.fr" class="btn btn-primary" style="margin-top: .25rem; align-self: flex-start;">
-            Inscription &amp; renseignements
-          </a>
+        </div>
+
+        <div class="helloasso-wrap">
+          <h3 class="helloasso-title">S'inscrire</h3>
+          <iframe
+            id="haWidget"
+            allowtransparency="true"
+            scrolling="auto"
+            src="https://www.helloasso.com/associations/asso-la-grange/evenements/les-tablees-de-la-grange/widget"
+            style="width:100%; height:750px; border:none;"
+            title="Inscription à la Tablée de La Grange via HelloAsso"
+            onload="window.addEventListener('message', function(e) { var h = e.data.height; var f = document.getElementById('haWidget'); if (h && h > parseFloat(f.style.height || 0)) { f.style.height = h + 'px'; } })">
+          </iframe>
         </div>
 
       </div>
@@ -132,17 +142,6 @@
       </div>
     </section>
 
-    <!-- ══ CTA ══════════════════════════════════════════════════ -->
-    <section>
-      <div class="container text-center">
-        <h2 class="section-title centered">Être prévenu·e des prochaines dates</h2>
-        <p class="section-intro" style="margin-inline: auto; text-align: center;">
-          Pas envie de rater la prochaine Tablée&nbsp;? Envoyez-nous un message,
-          on vous ajoutera à la liste des personnes intéressées.
-        </p>
-        <a href="contact.html" class="btn btn-primary">Nous contacter</a>
-      </div>
-    </section>
 
   </main>
 

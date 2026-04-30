@@ -873,6 +873,17 @@ section { padding: 4rem 0; }
 
 .newsletter-form-mini button:hover { background: var(--terracotta-dark); }
 
+/* ── HelloAsso widget ───────────────────────────────────────── */
+.helloasso-wrap {
+  margin-top: 2.5rem;
+}
+
+.helloasso-title {
+  font-size: 1.3rem;
+  color: var(--green);
+  margin-bottom: 1rem;
+}
+
 /* ── Hero badge ──────────────────────────────────────────────── */
 .hero-badge {
   display: inline-block;
