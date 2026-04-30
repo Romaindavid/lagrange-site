@@ -43,55 +43,75 @@
     <!-- ══ PAGE HERO ════════════════════════════════════════════ -->
     <section class="page-hero">
       <div class="container">
+        <span class="hero-badge" style="margin-bottom: 1rem; display: inline-block;">1er événement · Inscriptions ouvertes</span>
         <h1>Les Tablées de La Grange</h1>
-        <p class="lead">
-          Avant d'avoir un lieu fixe, on crée du lien. Les Tablées, c'est nos
-          rencontres conviviales itinérantes&nbsp;: un repas, des échanges, des sourires.
-          Venez comme vous êtes.
+        <p class="lead" style="max-width: 100%;">
+          Cuisine, partage, rencontres.<br />
+          Notre futur café citoyen commence ici&nbsp;!
         </p>
       </div>
     </section>
 
-    <!-- ══ PROCHAINE DATE ═══════════════════════════════════════ -->
-    <section>
+    <!-- ══ INFOS CLÉS ════════════════════════════════════════════ -->
+    <section style="padding: 2.5rem 0;">
       <div class="container">
-        <h2 class="section-title">Prochaine date</h2>
 
-        <div class="event-card">
-          <span class="event-label">1ère édition · Inscriptions ouvertes</span>
-          <h3>Les Tablées de La Grange</h3>
-          <p style="color: var(--terracotta); font-style: italic; font-family: 'Playfair Display', serif;">
-            Notre futur café citoyen commence ici&nbsp;!
-          </p>
-          <div class="event-meta">
-            <p><strong>Date :</strong> Vendredi 29 mai 2026 à partir de 18h</p>
-            <p><strong>Lieu :</strong> RestoKoop de Mireuil — 6 rue Auguste Rodin, La Rochelle</p>
-            <p><strong>Prix :</strong> Libre et conscient</p>
-            <p><strong>Format :</strong> Un repas cuisiné et partagé ensemble — ouvert à toutes et à tous</p>
-          </div>
-          <div class="event-coorg">
-            <span class="event-coorg-label">Un événement co-organisé par</span>
-            <div class="event-coorg-logos">
-              <span class="coorg-name">La Grange</span>
-              <span class="coorg-sep">&amp;</span>
-              <span class="coorg-name">Horizon Jeune Habitant</span>
+        <div class="event-facts">
+
+          <div class="event-fact">
+            <span class="fact-icon" aria-hidden="true">📅</span>
+            <div class="fact-body">
+              <strong>Vendredi 29 mai 2026</strong>
+              <span>De 18h à 21h</span>
             </div>
           </div>
+
+          <div class="event-fact">
+            <span class="fact-icon" aria-hidden="true">📍</span>
+            <div class="fact-body">
+              <strong>Foyer des jeunes travailleurs de Mireuil</strong>
+              <span>6 rue Auguste Rodin, La Rochelle</span>
+            </div>
+          </div>
+
+          <div class="event-fact">
+            <span class="fact-icon" aria-hidden="true">🎟️</span>
+            <div class="fact-body">
+              <strong>Sur inscription</strong>
+              <span>Prix libre et conscient</span>
+            </div>
+          </div>
+
+          <div class="event-fact">
+            <span class="fact-icon" aria-hidden="true">🍽️</span>
+            <div class="fact-body">
+              <strong>Repas cuisiné ensemble</strong>
+              <span>Ouvert à toutes et à tous</span>
+            </div>
+          </div>
+
         </div>
 
-        <div class="helloasso-wrap">
-          <h3 class="helloasso-title">S'inscrire</h3>
-          <iframe
-            id="haWidget"
-            allowtransparency="true"
-            scrolling="auto"
-            src="https://www.helloasso.com/associations/asso-la-grange/evenements/les-tablees-de-la-grange/widget"
-            style="width:100%; height:750px; border:none;"
-            title="Inscription à la Tablée de La Grange via HelloAsso"
-            onload="window.addEventListener('message', function(e) { var h = e.data.height; var f = document.getElementById('haWidget'); if (h && h > parseFloat(f.style.height || 0)) { f.style.height = h + 'px'; } })">
-          </iframe>
-        </div>
+        <p class="event-coorg-line">
+          Un événement co-organisé par <strong>La Grange</strong> &amp; <strong>Horizon Jeune Habitant</strong>
+        </p>
 
+      </div>
+    </section>
+
+    <!-- ══ INSCRIPTION ══════════════════════════════════════════ -->
+    <section style="background: #fff; padding-top: 0;">
+      <div class="container">
+        <h2 class="section-title">S'inscrire</h2>
+        <iframe
+          id="haWidget"
+          allowtransparency="true"
+          scrolling="auto"
+          src="https://www.helloasso.com/associations/asso-la-grange/evenements/les-tablees-de-la-grange/widget"
+          style="width:100%; height:750px; border:none;"
+          title="Inscription à la Tablée de La Grange via HelloAsso"
+          onload="window.addEventListener('message', function(e) { var h = e.data.height; var f = document.getElementById('haWidget'); if (h && h > parseFloat(f.style.height || 0)) { f.style.height = h + 'px'; } })">
+        </iframe>
       </div>
     </section>
 

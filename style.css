@@ -873,6 +873,47 @@ section { padding: 4rem 0; }
 
 .newsletter-form-mini button:hover { background: var(--terracotta-dark); }
 
+/* ── Event facts ─────────────────────────────────────────────── */
+.event-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1.75rem 2rem;
+  margin-bottom: 1.75rem;
+}
+
+.event-fact {
+  display: flex;
+  align-items: flex-start;
+  gap: .75rem;
+}
+
+.fact-icon {
+  font-size: 1.6rem;
+  flex-shrink: 0;
+  line-height: 1;
+  margin-top: .1rem;
+}
+
+.fact-body strong {
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  color: var(--green);
+  line-height: 1.3;
+}
+
+.fact-body span {
+  font-size: .88rem;
+  color: var(--text-light);
+}
+
+.event-coorg-line {
+  font-size: .9rem;
+  color: var(--text-light);
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--cream-dark);
+}
+
 /* ── HelloAsso widget ───────────────────────────────────────── */
 .helloasso-wrap {
   margin-top: 2.5rem;
