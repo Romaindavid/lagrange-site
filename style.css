@@ -410,7 +410,6 @@ section { padding: 4rem 0; }
 .page-hero .lead {
   font-size: 1.1rem;
   color: var(--text-light);
-  max-width: 620px;
 }
 
 /* ── Valeurs grid ────────────────────────────────────────────── */
