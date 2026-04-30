@@ -873,38 +873,33 @@ section { padding: 4rem 0; }
 
 .newsletter-form-mini button:hover { background: var(--terracotta-dark); }
 
-/* ── Event facts ─────────────────────────────────────────────── */
-.event-facts {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-  gap: 1.75rem 2rem;
-  margin-bottom: 1.75rem;
+/* ── Event facts list ────────────────────────────────────────── */
+.event-facts-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: .85rem;
+  margin-bottom: 1.5rem;
 }
 
-.event-fact {
+.event-facts-list li {
   display: flex;
   align-items: flex-start;
-  gap: .75rem;
-}
-
-.fact-icon {
-  font-size: 1.6rem;
-  flex-shrink: 0;
-  line-height: 1;
-  margin-top: .1rem;
-}
-
-.fact-body strong {
-  display: block;
-  font-family: 'Playfair Display', serif;
+  gap: .9rem;
   font-size: 1rem;
-  color: var(--green);
-  line-height: 1.3;
+  line-height: 1.5;
 }
 
-.fact-body span {
-  font-size: .88rem;
-  color: var(--text-light);
+.event-facts-list li > span:first-child {
+  font-size: 1.1rem;
+  width: 1.5rem;
+  flex-shrink: 0;
+  text-align: center;
+  padding-top: .1rem;
+}
+
+.event-facts-list strong {
+  color: var(--green);
 }
 
 .event-coorg-line {
@@ -912,6 +907,7 @@ section { padding: 4rem 0; }
   color: var(--text-light);
   padding-top: 1.25rem;
   border-top: 1px solid var(--cream-dark);
+  margin-bottom: 0;
 }
 
 /* ── HelloAsso widget ───────────────────────────────────────── */
