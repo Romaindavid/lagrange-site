@@ -909,6 +909,16 @@ section { padding: 4rem 0; }
   margin-bottom: 0;
 }
 
+/* ── Hero event meta (date + lieu inline) ───────────────────── */
+.hero-event-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem 1.5rem;
+  margin-top: 1.25rem;
+  font-size: .95rem;
+  color: var(--text-light);
+}
+
 /* ── HelloAsso widget ───────────────────────────────────────── */
 .helloasso-wrap {
   margin-top: 2.5rem;
