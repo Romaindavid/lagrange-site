@@ -51,73 +51,19 @@
       </div>
     </section>
 
-    <!-- ══ NIVEAUX D'ADHÉSION ═══════════════════════════════════ -->
+    <!-- ══ FORMULAIRE HELLOASSO ════════════════════════════════ -->
     <section>
       <div class="container">
-        <h2 class="section-title">Choisissez votre niveau</h2>
-        <p class="section-intro">
-          Chaque adhésion compte. Elle finance les frais de l'association, les
-          Tablées de La Grange et la préparation de l'ouverture.
-        </p>
-
-        <div class="adhesion-grid">
-
-          <article class="adhesion-card">
-            <div class="adhesion-icon" aria-hidden="true">🌱</div>
-            <h3>Soutien</h3>
-            <p class="adhesion-price">5 €<span style="font-size: 1rem; font-weight: 400;">/an</span></p>
-            <p class="adhesion-desc">Je soutiens le projet et montre que La Grange a une communauté derrière elle.</p>
-          </article>
-
-          <article class="adhesion-card">
-            <div class="adhesion-icon" aria-hidden="true">☕</div>
-            <h3>Membre</h3>
-            <p class="adhesion-price">15 €<span style="font-size: 1rem; font-weight: 400;">/an</span></p>
-            <p class="adhesion-desc">Je participe à la vie de l'asso : votes, assemblées générales, Tablées.</p>
-          </article>
-
-          <article class="adhesion-card">
-            <div class="adhesion-icon" aria-hidden="true">🤝</div>
-            <h3>Bâtisseur·se</h3>
-            <p class="adhesion-price">30 €<span style="font-size: 1rem; font-weight: 400;">/an</span></p>
-            <p class="adhesion-desc">Je contribue à construire le lieu et m'implique dans les décisions stratégiques.</p>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- ══ COMMENT ADHÉRER ══════════════════════════════════════ -->
-    <section style="background: #fff;">
-      <div class="container">
-        <div class="two-col">
-
-          <div>
-            <h2 class="section-title">Comment adhérer&nbsp;?</h2>
-            <p style="margin-bottom: 1.25rem;">
-              L'adhésion se fait via HelloAsso, une plateforme sécurisée et sans frais
-              pour les associations. Le lien sera disponible très prochainement.
-            </p>
-            <a href="#" class="btn btn-primary coming-soon" aria-disabled="true" tabindex="-1">
-              Adhérer en ligne — bientôt disponible
-            </a>
-            <p class="note">
-              Des questions&nbsp;? Écrivez-nous à
-              <a href="mailto:contact@asso-lagrange.fr">contact@asso-lagrange.fr</a>
-            </p>
-          </div>
-
-          <div class="encart" style="margin-top: 0;">
-            <h3>En attendant…</h3>
-            <p>Vous pouvez déjà rejoindre les Tablées, suivre le projet sur les réseaux
-               et inviter des proches à découvrir La Grange.</p>
-            <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1rem;">
-              <a href="les-tablees.html" class="btn btn-outline-dark">Voir les Tablées</a>
-              <a href="contact.html" class="btn btn-outline-dark">Nous écrire</a>
-            </div>
-          </div>
-
-        </div>
+        <h2 class="section-title">Adhérer en ligne</h2>
+        <iframe
+          id="haWidget"
+          allowtransparency="true"
+          scrolling="auto"
+          src="https://www.helloasso.com/associations/asso-la-grange/adhesions/adhesion2026/widget"
+          style="width:100%; height:750px; border:none;"
+          title="Adhésion à l'association La Grange via HelloAsso"
+          onload="window.addEventListener('message', function(e) { var h = e.data.height; var f = document.getElementById('haWidget'); if (h && h > parseFloat(f.style.height || 0)) { f.style.height = h + 'px'; } })">
+        </iframe>
       </div>
     </section>
 
