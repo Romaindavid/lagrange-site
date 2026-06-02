@@ -424,7 +424,6 @@ section { padding: 4rem 0; }
 
 .section-intro {
   color: var(--text-light);
-  max-width: 640px;
   margin-bottom: 2.5rem;
 }
 
