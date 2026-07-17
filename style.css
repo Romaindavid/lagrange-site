@@ -828,6 +828,19 @@ section { padding: 4rem 0; }
   min-width: 260px;
 }
 
+.newsletter-success {
+  flex: 1;
+  min-width: 260px;
+  margin: 0;
+  padding: .65rem .9rem;
+  border: 1.5px solid var(--terracotta);
+  border-radius: var(--radius);
+  background: rgba(245,240,232,.1);
+  color: var(--cream);
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+}
+
 .newsletter-form input[type="email"] {
   flex: 1;
   min-width: 180px;
