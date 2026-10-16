@@ -833,6 +833,70 @@ section { padding: 4rem 0; }
 .mb-1 { margin-bottom: 1rem; }
 .mb-2 { margin-bottom: 2rem; }
 
+/* ── Instagram feed (SociableKit) aux couleurs du site ───────── */
+#instagram .sk-instagram-feed {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #fff !important;
+  border: 1px solid var(--cream-dark) !important;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  font-family: 'Lato', sans-serif !important;
+  text-align: left;
+}
+
+#instagram .sk-instagram-feed *:not(svg):not(path) {
+  font-family: 'Lato', sans-serif !important;
+}
+
+#instagram .sk-instagram-feed .sk-ig-profile-usename {
+  font-family: 'Playfair Display', serif !important;
+  font-size: 1.15rem !important;
+  color: var(--green) !important;
+  margin: 0;
+}
+
+#instagram .sk-instagram-feed .sk-ig-profile-counts,
+#instagram .sk-instagram-feed .sk-ig-profile-bio-container {
+  font-size: .85rem !important;
+  color: var(--text-light) !important;
+}
+
+#instagram .sk-instagram-feed button.instagram-user-container {
+  background: var(--terracotta) !important;
+  color: #fff !important;
+  font-size: .8rem !important;
+  font-weight: 700 !important;
+  border: 0 !important;
+  border-radius: 6px !important;
+}
+
+#instagram .sk-instagram-feed button.instagram-user-container:hover {
+  background: var(--terracotta-dark) !important;
+}
+
+#instagram .sk-instagram-feed .sk-instagram-feed-item {
+  border-radius: 8px !important;
+}
+
+#instagram .sk-instagram-feed .swiper-button-next,
+#instagram .sk-instagram-feed .swiper-button-prev {
+  background: var(--cream) !important;
+  color: var(--terracotta) !important;
+  border: 1px solid var(--cream-dark) !important;
+}
+
+#instagram .sk-instagram-feed .swiper-button-next svg,
+#instagram .sk-instagram-feed .swiper-button-prev svg {
+  fill: var(--terracotta) !important;
+  stroke: var(--terracotta) !important;
+}
+
+#instagram .sk-instagram-feed .tutorial_link {
+  color: var(--text-light) !important;
+  font-size: .75rem !important;
+}
+
 /* ── Two-col layout ──────────────────────────────────────────── */
 .two-col {
   display: grid;
