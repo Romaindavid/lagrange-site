@@ -850,10 +850,18 @@ section { padding: 4rem 0; }
 }
 
 #instagram .sk-instagram-feed .sk-ig-profile-usename {
-  font-family: 'Playfair Display', serif !important;
-  font-size: 1.15rem !important;
+  font-size: 1.1rem !important;
+  font-weight: 700 !important;
   color: var(--green) !important;
   margin: 0;
+}
+
+#instagram .sk-instagram-feed a,
+#instagram .sk-instagram-feed a:hover,
+#instagram .sk-instagram-feed a:focus,
+#instagram .sk-instagram-feed a * {
+  text-decoration: none !important;
+  border-bottom: 0 !important;
 }
 
 #instagram .sk-instagram-feed .sk-ig-profile-counts,
