@@ -833,6 +833,22 @@ section { padding: 4rem 0; }
 .mb-1 { margin-bottom: 1rem; }
 .mb-2 { margin-bottom: 2rem; }
 
+/* ── Instagram embed ────────────────────────────────────────── */
+.insta-embed {
+  width: 100%;
+  max-width: 540px;
+  height: 520px;
+  border: 1px solid var(--cream-dark);
+  border-radius: 10px;
+  background: #fff;
+  display: block;
+  margin: 0 auto 1.5rem;
+}
+
+@media (max-width: 540px) {
+  .insta-embed { height: 440px; }
+}
+
 /* ── Two-col layout ──────────────────────────────────────────── */
 .two-col {
   display: grid;
