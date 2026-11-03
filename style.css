@@ -381,6 +381,18 @@ section { padding: 4rem 0; }
   margin-bottom: .6rem;
 }
 
+.features-grid.cols-4 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 900px) {
+  .features-grid.cols-4 { grid-template-columns: repeat(4, 1fr); gap: 1.25rem; }
+}
+
+@media (max-width: 540px) {
+  .features-grid.cols-4 { grid-template-columns: 1fr; }
+}
+
 /* ── Event list (retour sur les événements) ──────────────────── */
 .event-list {
   display: flex;
