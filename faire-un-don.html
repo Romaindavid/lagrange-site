@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Faire un don — La Grange, café citoyen à La Rochelle</title>
+  <meta name="description" content="Soutenez La Grange, projet de café associatif et citoyen à La Rochelle, en faisant un don en ligne." />
+  <meta property="og:title" content="Faire un don à La Grange" />
+  <meta property="og:description" content="Chaque don rapproche La Grange de son ouverture : un café associatif et citoyen, ouvert à toutes et à tous." />
+  <meta property="og:url" content="https://asso-lagrange.fr/faire-un-don.html" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/png" href="Photos/logo.png" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F848WYMJCL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-F848WYMJCL');
+  </script>
+</head>
+<body>
+
+  <!-- ══ HEADER ══════════════════════════════════════════════ -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="header-logo" aria-label="La Grange — retour à l'accueil">
+        <img src="Photos/logo.png" alt="Logo La Grange" height="52" />
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Ouvrir le menu de navigation">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="site-nav" aria-label="Navigation principale">
+        <ul class="nav-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="le-projet.html">Le projet</a></li>
+          <li><a href="les-tablees.html">Les Tablées</a></li>
+          <li><a href="adherer.html">Adhérer</a></li>
+          <li><a href="faire-un-don.html" aria-current="page">Faire un don</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ══ PAGE HERO ════════════════════════════════════════════ -->
+    <section class="page-hero">
+      <div class="container">
+        <h1>Soutenir La Grange</h1>
+        <p class="lead">
+          Chaque don, petit ou grand, nous rapproche de l'ouverture d'un café associatif
+          et citoyen, ouvert à toutes et à tous.
+        </p>
+      </div>
+    </section>
+
+    <!-- ══ FORMULAIRE HELLOASSO ════════════════════════════════ -->
+    <section>
+      <div class="container">
+        <h2 class="section-title">Faire un don en ligne</h2>
+        <iframe
+          id="haWidget"
+          allow="payment 'self' https://paymenthub.helloassopay.com https://helloasso.com"
+          allowtransparency="true"
+          scrolling="auto"
+          src="https://www.helloasso.com/associations/asso-la-grange/formulaires/1/widget"
+          style="width:100%; height:750px; border:none;"
+          title="Faire un don à l'association La Grange via HelloAsso"
+          onload="window.addEventListener('message', function(e) { var h = e.data.height; var f = document.getElementById('haWidget'); if (h && h > parseFloat(f.style.height || 0)) { f.style.height = h + 'px'; } })">
+        </iframe>
+      </div>
+    </section>
+
+    <!-- ══ À QUOI SERT VOTRE DON ════════════════════════════════ -->
+    <section>
+      <div class="container">
+        <h2 class="section-title">À quoi sert votre don&nbsp;?</h2>
+        <div class="features-grid mt-2">
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">🥕</div>
+            <h3>Faire vivre les Tablées</h3>
+            <p>Matériel de cuisine, location de salle, petit équipement&nbsp;: de quoi continuer à cuisiner et partager ensemble.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">🏡</div>
+            <h3>Préparer l'ouverture</h3>
+            <p>Chaque euro aide à financer les premières étapes du lieu et rapproche le café de son ouverture.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">🤝</div>
+            <h3>Un lieu ouvert à tous</h3>
+            <p>Vos dons permettent de garder des prix libres et conscients, pour que chacun puisse venir quels que soient ses moyens.</p>
+          </article>
+
+        </div>
+        <p class="mt-2">Vous souhaitez aussi participer aux décisions&nbsp;? <a href="adherer.html">Adhérez à l'association</a>.</p>
+      </div>
+    </section>
+
+    <!-- ══ NEWSLETTER ══════════════════════════════════════════════ -->
+    <section class="newsletter-section">
+      <div class="container">
+        <div class="newsletter-inner">
+          <div>
+            <h2 class="section-title">Restez dans la boucle</h2>
+            <p class="section-intro">Prochaines Tablées, actualités du projet et annonce de l'ouverture — dans votre boîte mail, sans spam.</p>
+          </div>
+          <!-- Connecter à Brevo / Mailchimp : remplacer action="#" par l'URL de votre service -->
+          <form class="newsletter-form" action="https://77e5385c.sibforms.com/serve/MUIFAGAgo4l2naJJIcJe_8AqV8MVYvhCD8GnjRYADVLctZawnCw5ps7gAHjJyG2Aru634C9tE3Ve9rU1w4yVq_gqTe1vaa8HNXsN9G23RqApRiDLA4IwF2MHqzi-Io1GoUWBqtCEd6fYWdicFEjNdVr08yHv9SuoSusBPck28y2FnaDqabcpNRSQ1Q2-QD2tqVJh8cXwGsoBbGpE1Q==" method="post" target="brevo-frame">
+            <input type="text" name="email_address_check" value="" style="display:none" tabindex="-1" aria-hidden="true" />
+            <input type="hidden" name="locale" value="fr" />
+            <input type="email" name="EMAIL" placeholder="votre@email.fr" required aria-label="Votre adresse email" autocomplete="email" />
+            <button type="submit" class="btn btn-primary">Je m'abonne</button>
+          </form>
+          <iframe name="brevo-frame" style="display:none" aria-hidden="true" title=""></iframe>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══ FOOTER ══════════════════════════════════════════════ -->
+  <footer class="site-footer" aria-label="Pied de page">
+    <div class="container">
+      <div class="footer-inner">
+
+        <div class="footer-brand">
+          <p class="footer-name">Association La Grange – La Rochelle</p>
+          <p><a href="mailto:contact@asso-lagrange.fr">contact@asso-lagrange.fr</a></p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Suivez-nous</h4>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/asso_la_grange/" aria-label="Instagram de La Grange" target="_blank" rel="noopener">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+              Instagram
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61563741707202" aria-label="Facebook de La Grange" target="_blank" rel="noopener">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              Facebook
+            </a>
+            <a href="https://chat.whatsapp.com/B4xNsvIMhY73kT1eo72qCB?mode=gi_t" aria-label="WhatsApp de La Grange" target="_blank" rel="noopener">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              WhatsApp
+            </a>
+          </div>
+        </div>
+
+
+      </div>
+      <p class="footer-rna">Association loi 1901 – RNA W173011277</p>
+    </div>
+  </footer>
+
+  <script src="newsletter.js" defer></script>
+</body>
+</html>
