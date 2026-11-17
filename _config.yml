@@ -1,0 +1,3 @@
+# Dossiers non publiés sur le site (GitHub Pages)
+exclude:
+  - emails

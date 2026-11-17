@@ -1,0 +1,88 @@
+{
+  "evenement": "Assemblée générale ouverte",
+  "date": "2026-11-29",
+  "test_destinataires": [
+    "contact@asso-lagrange.fr"
+  ],
+  "envois": {
+    "invitation": {
+      "nom_campagne": "Invitations AG - 29 novembre",
+      "objet": "🗓️ 29 novembre : imaginons La Grange ensemble",
+      "apercu": "Assemblée générale ouverte, dimanche 29 novembre de 16h à 18h, salle de Fetilly. Inscription avant le 26 novembre.",
+      "titre_html": "Et si on imaginait La Grange ensemble ?",
+      "listes": [2, 3, 6],
+      "exclusions": [],
+      "contenu": {
+        "entete": {
+          "surtitre": "Assemblée générale ouverte · dimanche 29 novembre",
+          "titre": "Et si on imaginait La Grange ensemble&nbsp;?"
+        },
+        "blocs": [
+          {
+            "type": "texte",
+            "commentaire": "Accroche",
+            "espace": 36,
+            "paragraphes": [
+              "Bonjour&nbsp;!",
+              "La Grange, c'est d'abord une bande de voisins qui se retrouvent, cuisinent, trinquent et rêvent d'un café associatif, un projet citoyen. Depuis le printemps, on s'est croisés aux Tablées, aux apéros, sur les stands. Aujourd'hui, c'est à tous de décider de la suite.",
+              "Le <strong>dimanche 29 novembre</strong>, on prend le temps de faire le point sur le projet et, surtout, de réfléchir à ce qu'on veut y mettre : quelles activités, quel lieu, quelle façon de vivre ensemble. Pas de jargon, pas de réunion guindée : chaque avis compte autant que les autres.",
+              "Curieux, déjà investi ou simplement de passage : tout le monde a sa place."
+            ]
+          },
+          {
+            "type": "photo",
+            "src": "https://asso-lagrange.fr/Photos/tablees-2.jpg",
+            "alt": "Prise de parole lors de la 2ème Tablée de La Grange"
+          },
+          {
+            "type": "texte",
+            "commentaire": "Au programme",
+            "intertitre": "Au programme",
+            "taille": 15,
+            "paragraphes": [
+              "On se retrouve, on fait le point sur le projet, puis chacun donne son avis et ses idées. On partage ce qui est ressorti et on prolonge autour d'un apéro en mode auberge espagnole."
+            ]
+          },
+          {
+            "type": "encadre",
+            "bordure": true,
+            "lignes": [
+              "📅 <strong>Dimanche 29 novembre 2026</strong>",
+              "🕓 De 16h à 18h, suivi d'un apéro en mode auberge espagnole : chacun apporte quelque chose à partager",
+              "📍 Salle de Fetilly, place du Curé Crampette, La Rochelle",
+              "🎟️ Participation gratuite, adhésion possible sur place",
+              "👧 Enfants bienvenus, un coin dédié leur est réservé"
+            ]
+          },
+          {
+            "type": "bouton",
+            "commentaire": "CTA inscription",
+            "texte_avant": "Pour nous permettre d'organiser au mieux ce temps fort de La Grange, merci de vous inscrire au plus tôt.",
+            "url": "https://asso-lagrange.fr/assemblee-generale.html#inscription",
+            "libelle": "Je m'inscris à l'assemblée générale",
+            "texte_apres": "Inscription avant le jeudi 26 novembre"
+          },
+          {
+            "type": "signature",
+            "texte": "Rendez-vous le 29 novembre&nbsp;🙏"
+          }
+        ]
+      },
+      "brevo": {
+        "campagne_id": 12
+      }
+    },
+    "partenaires": {
+      "nom_campagne": "Invitations AG - 29 novembre (partenaires)",
+      "objet": "🗓️ 29 novembre : imaginons La Grange ensemble",
+      "apercu": "Assemblée générale ouverte, dimanche 29 novembre de 16h à 18h, salle de Fetilly. Inscription avant le 26 novembre.",
+      "titre_html": "Et si on imaginait La Grange ensemble ?",
+      "listes": [8],
+      "exclusions": [2, 3, 6, 7],
+      "contenu_de": "invitation",
+      "brevo": {
+        "campagne_id": 13
+      }
+    }
+  }
+}

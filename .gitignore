@@ -1,3 +1,5 @@
 PRIVATE/
 .DS_Store
 .gstack/
+.env.local
+__pycache__/

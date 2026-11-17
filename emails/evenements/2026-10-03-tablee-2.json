@@ -1,0 +1,206 @@
+{
+  "evenement": "2ème Tablée, spéciale crêpes",
+  "date": "2026-10-03",
+  "test_destinataires": [
+    "contact@asso-lagrange.fr"
+  ],
+  "envois": {
+    "annonce": {
+      "nom_campagne": "Invitation Tablées #2",
+      "objet": "🥞 La 2ème Tablée arrive, spéciale crêpes !",
+      "apercu": "Samedi 19 septembre : Forum des assos. Samedi 3 octobre : la 2ème Tablée, spéciale crêpes !",
+      "titre_html": "La 2ème Tablée arrive, spéciale crêpes !",
+      "listes": [2, 3, 6],
+      "exclusions": [],
+      "contenu": {
+        "entete": {
+          "titre": "🥞 La 2ème Tablée arrive&nbsp;!",
+          "sous_titre": "Cuisine, partage, rencontres"
+        },
+        "blocs": [
+          {
+            "type": "texte",
+            "commentaire": "Accroche",
+            "espace": 36,
+            "paragraphes": [
+              "Bonjour&nbsp;!",
+              "Deux rendez-vous à noter dans les prochaines semaines pour voir l'équipe de La Grange et retrouver l'ambiance des Tablées."
+            ]
+          },
+          {
+            "type": "encadre",
+            "commentaire": "Forum des assos",
+            "espace": 28,
+            "intertitre": "Ce samedi 19 septembre",
+            "bordure": true,
+            "interligne": 1.8,
+            "lignes": [
+              "<strong>Forum des assos de la Belle du Gabut</strong>",
+              "De 12h à 19h, une journée pour découvrir les associations locales de La Rochelle. L'équipe de La Grange y sera pour présenter le projet et échanger avec vous. Venez nous dire bonjour&nbsp;!"
+            ]
+          },
+          {
+            "type": "texte",
+            "commentaire": "2ème Tablée",
+            "espace": 32,
+            "intertitre": "Samedi 3 octobre",
+            "paragraphes": [
+              "Après le succès de la 1ère édition, on remet le couvert pour une <strong>2ème Tablée spéciale crêpes</strong>&nbsp;! Un repas anti-gaspi, cuisiné et partagé ensemble, à prix libre et conscient."
+            ]
+          },
+          {
+            "type": "photo",
+            "espace": 24,
+            "src": "https://asso-lagrange.fr/Photos/tablees2.png",
+            "alt": "La 2ème Tablée de La Grange, spéciale crêpes"
+          },
+          {
+            "type": "encadre",
+            "espace": 24,
+            "lignes": [
+              "📅 <strong>Samedi 3 octobre 2026</strong>",
+              "🕓 À partir de 16h, et jusqu'au bout de la nuit",
+              "📍 Salle du Clos Margat, 42 Rue du Clos Margat",
+              "🎟️ Sur inscription, nombre de places limité"
+            ]
+          },
+          {
+            "type": "bouton",
+            "commentaire": "CTA inscription",
+            "url": "https://asso-lagrange.fr/les-tablees.html#inscription",
+            "libelle": "🥞 Je m'inscris à la Tablée"
+          },
+          {
+            "type": "signature",
+            "texte": "On a hâte de vous y retrouver&nbsp;🙏"
+          }
+        ]
+      },
+      "brevo": {
+        "campagne_id": 9
+      }
+    },
+    "relance": {
+      "nom_campagne": "Invitation Tablées #2 relance",
+      "objet": "⏳ Plus que quelques jours pour réserver votre place !",
+      "apercu": "Places limitées : plus que quelques jours pour réserver votre place à la 2ème Tablée du 3 octobre.",
+      "titre_html": "Plus que quelques jours pour s'inscrire à la Tablée !",
+      "listes": [2, 3, 6],
+      "exclusions": [7],
+      "contenu": {
+        "entete": {
+          "titre": "⏳ Plus que quelques jours&nbsp;!",
+          "taille_titre": 26,
+          "interligne_titre": 1.3,
+          "sous_titre": "2ème Tablée, spéciale crêpes · Samedi 3 octobre"
+        },
+        "blocs": [
+          {
+            "type": "texte",
+            "commentaire": "Accroche",
+            "espace": 36,
+            "paragraphes": [
+              "Bonjour&nbsp;!",
+              "La 2ème Tablée de La Grange, c'est dans un peu plus d'une semaine. Le nombre de places est limité, et ça commence à se remplir. Si vous comptiez venir, c'est le moment de réserver votre place&nbsp;!"
+            ]
+          },
+          {
+            "type": "encadre",
+            "espace": 28,
+            "lignes": [
+              "📅 <strong>Samedi 3 octobre 2026</strong>",
+              "🕓 À partir de 16h, et jusqu'au bout de la nuit",
+              "📍 Salle du Clos Margat, 42 Rue du Clos Margat",
+              "🎟️ Sur inscription, nombre de places limité"
+            ]
+          },
+          {
+            "type": "photo",
+            "espace": 24,
+            "src": "https://asso-lagrange.fr/Photos/tablees2.png",
+            "alt": "La 2ème Tablée de La Grange, spéciale crêpes"
+          },
+          {
+            "type": "bouton",
+            "commentaire": "CTA inscription",
+            "url": "https://asso-lagrange.fr/les-tablees.html#inscription",
+            "libelle": "🥞 Je réserve ma place"
+          },
+          {
+            "type": "signature",
+            "texte": "On a hâte de vous y retrouver&nbsp;🙏"
+          }
+        ]
+      },
+      "brevo": {
+        "campagne_id": 10
+      }
+    },
+    "jour-j": {
+      "nom_campagne": "relance jourJ Tablées #2",
+      "objet": "🥞 C'est aujourd'hui : la 2ème Tablée !",
+      "apercu": "Dès 16h à la Salle du Clos Margat. N'oubliez pas vos tup' pour les restes 🥡",
+      "titre_html": "C'est aujourd'hui : la 2ème Tablée !",
+      "preheader_html": "Rendez-vous dès 16h à la Salle du Clos Margat. N'oubliez pas vos tup' pour les restes 🥡",
+      "listes": [2, 3, 6],
+      "exclusions": [],
+      "contenu": {
+        "entete": {
+          "titre": "🥞 C'est aujourd'hui&nbsp;!",
+          "taille_titre": 26,
+          "interligne_titre": 1.3,
+          "sous_titre": "2ème Tablée, spéciale crêpes · Samedi 3 octobre"
+        },
+        "blocs": [
+          {
+            "type": "texte",
+            "commentaire": "Accroche",
+            "espace": 36,
+            "paragraphes": [
+              "Bonjour&nbsp;!",
+              "Le grand jour est arrivé&nbsp;: la 2ème Tablée de La Grange, c'est <strong>aujourd'hui</strong>&nbsp;! Les crêpières chauffent, on a hâte de vous retrouver pour cuisiner, manger et partager ensemble."
+            ]
+          },
+          {
+            "type": "encadre",
+            "espace": 28,
+            "lignes": [
+              "📅 <strong>Aujourd'hui, samedi 3 octobre</strong>",
+              "🕓 À partir de 16h, et jusqu'au bout de la nuit",
+              "📍 Salle du Clos Margat, 42 Rue du Clos Margat"
+            ]
+          },
+          {
+            "type": "liste",
+            "intertitre": "À ne pas oublier",
+            "elements": [
+              {
+                "texte": "🥡 <strong>Vos boîtes tup'</strong>&nbsp;: s'il reste à manger en fin de soirée, chacun repart avec sa part. Rien ne se perd&nbsp;!"
+              },
+              {
+                "texte": "💸 <strong>Prix libre et conscient</strong>&nbsp;: choisissez ce que vous mettez par personne (adultes &amp; enfants)&nbsp;:",
+                "sous_lignes": [
+                  "🌱 <strong>Moins de 10&nbsp;€</strong>&nbsp;: vous participez, c'est déjà super",
+                  "🙌 <strong>Environ 15&nbsp;€</strong>&nbsp;: vous couvrez les frais de la soirée",
+                  "✨ <strong>Plus de 15&nbsp;€</strong>&nbsp;: vous nous aidez à organiser la suite et à préparer l'ouverture"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "photo",
+            "src": "https://asso-lagrange.fr/Photos/tablees2.png",
+            "alt": "La 2ème Tablée de La Grange, spéciale crêpes"
+          },
+          {
+            "type": "signature",
+            "texte": "À tout à l'heure&nbsp;🙏"
+          }
+        ]
+      },
+      "brevo": {
+        "campagne_id": 11
+      }
+    }
+  }
+}
